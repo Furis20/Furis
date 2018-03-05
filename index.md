@@ -3,7 +3,9 @@
 </head>
 <body>
   
-<img src="programming.gif" alt="Computer man" style="width:48px;height:48px;">
+<audio controls>
+  <source src="horse.mp3" type="audio/mpeg">
+</audio>
 
 <h1>Let's have some fun!</h1>
 <p>Enter your text here:</p>
