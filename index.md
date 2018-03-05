@@ -1,7 +1,6 @@
  <h1>Let's have some fun!</h1>
 <p>Enter your text here:</p><br>
-<form action="/action_page.php">
-<input type="text" name="FirstName" value="">
+<textarea rows="10" cols="60" id="myTextarea"> </textarea> 
 <input type="submit" value="Enter">
 
 
@@ -11,5 +10,4 @@
 <input type="submit" value="OTP-encrypt"> <input type="submit" value="OTP-decrypt"> <input type="submit" value="SHA-2"> <input type="submit" value="MD5 decrypt">
 
 <p>Result:</p>
-<form action="/action_page.php">
-<input type="text" name="FirstName" value=""><br>
+<textarea rows="10" cols="60" id="myTextarea"> </textarea> 
