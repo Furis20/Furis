@@ -2,6 +2,8 @@
 <head>
 </head>
 <body>
+  
+<img src="programming.gif" alt="Computer man" style="width:48px;height:48px;">
 
 <h1>Let's have some fun!</h1>
 <p>Enter your text here:</p>
@@ -18,5 +20,4 @@
 <form action="/action_page.php">
 <input type="text" name="FirstName" value=""><br>
 
-</body>
-</html>
+
