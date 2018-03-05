@@ -8,7 +8,7 @@
 <form action="/action_page.php">
 <input type="text" name="FirstName" value=""><br>
 <input type="submit" value="Enter">
-  string htmlentities ( string $string [, int $flags = ENT_COMPAT | ENT_HTML401 [, string $encoding = ini_get("default_charset") [, bool $double_encode = TRUE ]]] )
+
 
 <p>Choose your key:</p><br>
 <form action="/action_page.php">
@@ -18,5 +18,38 @@
 <p>Result:</p>
 <form action="/action_page.php">
 <input type="text" name="FirstName" value=""><br>
+def encrypt(n, plaintext):
+    """Encrypt the string and return the ciphertext"""
+    result = ''
 
+    for l in plaintext.lower():
+        try:
+            i = (key.index(l) + n) % 26
+            result += key[i]
+        except ValueError:
+            result += l
+
+    return result.lower()
+
+def decrypt(n, ciphertext):
+    """Decrypt the string and return the plaintext"""
+    result = ''
+
+    for l in ciphertext:
+        try:
+            i = (key.index(l) - n) % 26
+            result += key[i]
+        except ValueError:
+            result += l
+
+    return result
+
+text = "I am coding Python on SoloLearn!"
+offset = 5
+
+encrypted = encrypt(offset, text)
+print('Encrypted:', encrypted)
+
+decrypted = decrypt(offset, encrypted)
+print('Decrypted:', decrypted)
 
