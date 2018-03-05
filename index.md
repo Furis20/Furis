@@ -1,6 +1,6 @@
- <h1>Let's have some fun!</h1>
+<h1>Let's have some fun!</h1>
 <p>Enter your text here:</p><br>
-<textarea rows="10" cols="40" id="myTextarea">
+<textarea rows="10" cols="40" id="myTextarea"></textarea> 
 <input type="submit" value="Enter">
 
 
