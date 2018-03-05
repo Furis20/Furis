@@ -3,9 +3,7 @@
 </head>
 <body>
   
-<audio controls>
-  <source src="horse.mp3" type="audio/mpeg">
-</audio>
+<img src="giphy.gif" alt="Hack" style="width:48px;height:48px;">
 
 <h1>Let's have some fun!</h1>
 <p>Enter your text here:</p>
