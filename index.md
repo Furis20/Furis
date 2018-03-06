@@ -1,5 +1,5 @@
 <h1>Let's have some fun!</h1>
-<p>Enter your text here:</p>
+Enter your text here:
 <textarea rows="5" cols="40" id="myTextarea"></textarea> 
 <input type="submit" value="Enter">
 
