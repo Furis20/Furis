@@ -1,3 +1,5 @@
+<img scr="https://images.techhive.com/images/article/2012/10/anonymouswearelegion-519315374-100010222-large.jpeg" alt="ananymous" width=200 height=200>
+
 <form action="#" method="post">
 Enter your text here:<br/>
 <input type="text" name="strex" id="strex" style="font-size:15pt;height:150px;width:300px;" /><br> <button id="cryptstr">SHA-2</button><br/>
