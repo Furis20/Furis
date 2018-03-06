@@ -8,5 +8,5 @@ Choose your key:
 <input type="number" name="quantity" min="1" max="100">
 <input type="submit" value="OTP-encrypt"> <input type="submit" value="OTP-decrypt"> <input type="submit" value="SHA-2"> <input type="submit" value="MD5 decrypt">
 
-Result:
+<p>Result:</p>
 <textarea rows="5" cols="40" id="myTextarea"> </textarea>
