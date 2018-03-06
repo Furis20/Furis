@@ -1,6 +1,6 @@
 <form action="#" method="post">
 Enter your text here:<br/>
-<input type="text" name="strex" id="strex" size="20" /> <button id="cryptstr">Encrypt</button><br/>
+<input type="text" name="strex" id="strex" size="20" /> <button id="cryptstr">SHA-2</button><br/>
 Result:<br/>
 <input type="text" name="strcrypt" id="strcrypt" size="33" />
 </form>
