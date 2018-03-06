@@ -1,7 +1,7 @@
 <h1>Let's have some fun!</h1>
-Enter your text here:<br>
-<textarea rows="5" cols="40" id="myTextarea"></textarea>
+Enter your text here:
 <input type="submit" value="Enter">
+<textarea rows="5" cols="40" id="myTextarea"></textarea>
 
 Choose your key:
 <form action="/action_page.php">
