@@ -1,11 +1,11 @@
 <form action="#" method="post">
 Enter your text here:<br/>
 <input type="text" name="strex" id="strex" style="font-size:15pt;height:150px;width:300px;" /><br>
-  Choose your key:
+Choose your key:
 <form action="/action_page.php">
-<input type="number" name="quantity" min="1" max="100"><br>
-  
-  <button id="cryptstr">SHA-2</button><br/>
+<input type="number" name="quantity" min="1" max="100"><br>  
+<button id="cryptstr">SHA-2</button><br/> <input type="submit" value="OTP-encrypt"> <input type="submit" value="OTP-decrypt"> <input type="submit" value="SHA-2"> <input type="submit" value="MD5 decrypt">
+
 Result:<br/>
 <input type="text" name="strcrypt" id="strcrypt" style="font-size:15pt;height:150px;width:300px;" />
 </form>
