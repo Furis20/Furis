@@ -1,8 +1,8 @@
 <form action="#" method="post">
 Enter your text here:<br/>
-<input type="text" name="strex" id="strex" style="font-size:18pt;height:420px;width:200px;" /><br> <button id="cryptstr">SHA-2</button><br/>
+<input type="text" name="strex" id="strex" style="font-size:15pt;height:200px;width:200px;" /><br> <button id="cryptstr">SHA-2</button><br/>
 Result:<br/>
-<input type="text" name="strcrypt" id="strcrypt" size="50" />
+<input type="text" name="strcrypt" id="strcrypt" style="font-size:15pt;height:200px;width:200px;" />
 </form>
 <script type="text/javascript">
 // Here add the code of SHA512 function
