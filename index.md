@@ -1,7 +1,7 @@
 <form action="#" method="post">
-Enter a text:<br/>
+Enter your text here:<br/>
 <input type="text" name="strex" id="strex" size="20" /> <button id="cryptstr">Encrypt</button><br/>
-SHA512 hash string:<br/>
+Result:<br/>
 <input type="text" name="strcrypt" id="strcrypt" size="33" />
 </form>
 <script type="text/javascript">
