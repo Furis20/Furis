@@ -2,7 +2,7 @@
 Enter your text here:<br/>
 <input type="text" name="strex" id="strex" size="50" /><br> <button id="cryptstr">SHA-2</button><br/>
 Result:<br/>
-<input type="text" name="strcrypt" id="strcrypt" size="50" />
+<textarea rows="5" cols="40" id="myTextarea"></textarea>
 </form>
 <script type="text/javascript">
 // Here add the code of SHA512 function
